@@ -150,3 +150,120 @@ h2{
     margin: 10px;
 }
 /* about me section end */
+/* professional experience starts */
+
+.professional-experience{
+    padding: 1% 0%;
+}
+
+.professional-experience .card{
+    background-color: slategray;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 700px;
+}
+
+.professional-experience .card:hover{
+    box-shadow: 2px 4px 8px 5px blue;
+}
+
+.card-icon{
+    margin: 0 auto;
+    text-align: center;
+}
+.card-icon img{
+    border: 5px solid white;
+    width: 80px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.card-icon img:hover{
+    background-color: black;
+    border: honeydew;
+}
+.card-title h2{
+    background-color: silver;
+    color: white;
+    padding: 6px;
+    text-align: center;
+}
+.contact-link{
+    text-align: center;
+}
+
+.button .Btn{
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+   font-size: 32px;
+   padding: 5px;
+   margin: 10px;
+   width: 50px;
+}
+.Btn:hover{
+    background-color: gray;
+}
+.professional-experience{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* professional experience ends */
+
+.achivement-contact{
+    padding: 10px 25px;
+    background-color: steelblue;
+    color: white;
+   
+}
+
+.achivement-contact::after{
+     content: '';
+     display: table;
+     clear: both;
+}
+
+.contact{
+    text-align: center;
+}
+.contact input, textarea{
+   width: 100%;
+   padding: 10px;
+   text-align: center;
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   resize: none;
+}
+.contact button{
+    border:none ;
+    background-color: darkslategrey;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* footer section start */
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.footer-menu a{
+    display: block;
+}
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer-dec{
+     
+}
+/* footer section end */

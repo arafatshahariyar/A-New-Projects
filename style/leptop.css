@@ -55,6 +55,7 @@
    
 }
 /* main section end*/
+/* about me section */
 .aboutme-img {
     margin-top: 100px;
 }
@@ -70,4 +71,33 @@
 }
 .btn:hover{
     background-color: darkcyan;
+}
+/* about me section end */
+/*achivement-contaCT Start here */
+.achivement{
+    padding-right: 50px;
+}
+.contact button:hover{
+   background-color: darkgray;
+   color: black;
+}
+/*achivement-contact ends here */
+
+button{
+    width: 150px;
+}
+/* .contact-lin{
+    position: relative;
+}
+.button{
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+
+} */
+
+.footer-menu a{
+    display: inline;
+    margin: 20px;
 }
